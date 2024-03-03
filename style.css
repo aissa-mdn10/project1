@@ -1,0 +1,258 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Cairo", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 3000px;
+}
+
+header {
+    display: flex;
+    background-color: gold;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    
+
+}
+
+.logo {
+color: rgb(252, 252, 252);
+text-decoration: none;
+font-size: 20px;
+font-weight: bold;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+nav a:hover {
+    color: blue;
+    font-weight: 900;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('https://media.istockphoto.com/id/1282366254/vector/abstract-pixel-transition-perspective-background.jpg?s=612x612&w=0&k=20&c=86IxaVSI7g7Gf5UdlWvECQX-C19bwVvhByKr3DnOVbU=');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+section {
+    padding: 100px 100px;
+}
+
+.content h2 {
+    color: #eee;
+   font-size: 30px;
+   font-weight: bold;
+}
+
+.content h2 span {
+    color: gold;
+
+}
+
+.content h3 {
+    color: firebrick;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contact-me {
+    display: inline-block;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+
+.contact-me:hover {
+    transform: scale(1.1);
+    background-color: rgb(200, 120, 100);
+}
+
+.social a {
+    
+    color: white;
+    font-size: 30px;
+    padding-right: 25px;
+
+}
+
+
+.OUR-SERVICES {
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+}
+
+.OUR-SERVICES h2 {
+    color: red;
+    font-size: 35px;
+}
+
+.OUR-SERVICES p {
+    color: rgb(82, 47, 47);
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+
+.SERVICES {
+    display: flex; 
+ 
+}
+
+.box {
+ background-color:#fff ;
+ padding: 20px;
+
+ margin: 10px;
+ border-radius: 10px;
+ border: 1px solid gray;
+ cursor: pointer;
+ transition: all 0.5s ease;
+} 
+
+.box:hover {
+    background-color:#962c2c;
+    box-shadow:0 5px 5px blue;
+    transform: scale(1.05);  
+
+}
+
+.box h3 {
+    font-size: 25px;
+}
+
+.icon {
+    color: red;
+   font-size: 40px;
+}
+
+.OUR-POTFOLIO {
+    text-align: center;
+}
+
+.OUR-POTFOLIO h2 {
+    color: red;
+    font-size: 35px;
+}
+
+.OUR-POTFOLIO p {
+    color: rgb(214, 119, 119);
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+
+
+
+.photos {
+    display: flex;
+    background-color: #9c9b9b;
+    background-size: cover;
+} 
+
+.photo {
+    margin: 20px;
+}
+
+.photos img {
+    width: 100%;
+}
+
+
+
+.contact-us {
+    background-color: #3d3c3c;
+    text-align: center;
+}
+
+.contact-us h2 {
+    color: red;
+    font-size: 35px;
+}
+
+.contact-us p {
+    color: rgb(214, 119, 119);
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+
+.contact-area {
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto;
+    padding: 35px;
+    border: 1px solid #585656;
+    border-radius: 10px;
+
+}
+
+.form-input input {
+    width: 50%;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #4d4d4d;
+   
+}
+
+.form-input:hover {
+    transform: scale(1.05);  
+}
+
+.form-input textarea {
+    width: 50%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #d4d4d4;
+}
+
+.send {
+    padding: 5px 25px;
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.send:hover {
+    background-color: rgb(236, 48, 48);
+    transform: scale(1.1);
+}
+
+footer {
+    border-top: 2px solid red;
+    background-color: #636363;
+    padding-top: 50px;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    font-size: 20px;
+}
